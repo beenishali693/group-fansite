@@ -4,6 +4,9 @@ body {
 h4 {
     margin-left: 60px;
 }
+nav a {
+    color: blue;
+}
 nav ul {
     background-color: white;
     padding: 25px;
