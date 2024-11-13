@@ -6,9 +6,11 @@ body {
 h1 {
     font-family: papyrus;
 }
+
 nav ul {
     background-color: white;
     padding: 25px;
+    width: 100%;
 }
 
 nav li {
@@ -22,10 +24,14 @@ section ul {
 
 section li {
     list-style-type: disc;
-    padding: 15px;
+    padding: 20px;
 }
 
 footer {
     background-color: white;
+    position: absolute;
+    bottom: 25px;
+    width:100%;
     padding: 25px;
+
 }
