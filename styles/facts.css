@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: papyrus;
+}
+nav ul {
+    background-color: white;
+    padding: 25px;
+}
+
+nav li {
+    display: inline;
+    padding: 25px;
+}
+
+section ul {
+    list-style-position: inside;
+}
+
+section li {
+    list-style-type: disc;
+    padding: 15px;
+}
+
+footer {
+    background-color: white;
+    padding: 25px;
+}
