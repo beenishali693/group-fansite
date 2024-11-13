@@ -1,37 +1,21 @@
 body {
     text-align: center;
-    background-color: whitesmoke;
 }
-
-h1 {
-    font-family: papyrus;
+h4 {
+    margin-left: 60px;
 }
-
 nav ul {
     background-color: white;
     padding: 25px;
     width: 100%;
 }
 
-nav li {
-    display: inline;
-    padding: 25px;
-}
-
-section ul {
-    list-style-position: inside;
-}
-
 section li {
-    list-style-type: disc;
     padding: 20px;
 }
 
 footer {
     background-color: white;
-    position: absolute;
     bottom: 25px;
-    width:100%;
-    padding: 25px;
-
+    color: black;
 }
