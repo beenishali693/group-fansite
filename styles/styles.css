@@ -1,3 +1,20 @@
+body {
+    background: url("/assets/images/Howarts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1, footer {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600; 
+    font-style: italic;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
 ul {
     list-style: none;
     width: 100%;
@@ -9,10 +26,23 @@ ul li::before {
     width: 30px;
     height: 30px;
     content: "";
-    background: url("/assets/images/sorting\ hat.jpeg");
-    background-size:30px 30px;
+    background: url("/assets/images/Sorting-Hat-PNG.png");
+    background-size: 30px 30px;
 }
 
 li {
     display: list-item;
+}
+
+nav li {
+    display: inline;
+    flex-direction: row;
+    padding: 5rem;
+    font-size: 25px;
+}
+
+footer {
+    position: absolute;
+    width:100%;
+    padding: 25px;
 }
