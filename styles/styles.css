@@ -1,9 +1,12 @@
+html {
+    background: url("../assets/images/Hogwarts.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
 body {
-    background: url("../assets/images/Hogwarts.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     color: white;
-}of 
+}
 
 h1, footer {
     font-family: "Cormorant Garamond", serif;
@@ -46,7 +49,7 @@ nav li {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     width:100%;
     padding: 25px;
 }
