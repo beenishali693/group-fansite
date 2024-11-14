@@ -5,25 +5,26 @@ body {
 }
 
 h4 {
-    margin-left: 60px;
+    margin-left: 5%;
 }
 
 nav a {
     color: blue;
+    
 }
 
 nav ul {
     background-color: white;
-    padding: 25px;
+    padding: 2%;
     width: 100%;
 }
 
 section {
-    margin-top: 50px;
+    margin-top: 2.5%;
 }
 
 section li {
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {
