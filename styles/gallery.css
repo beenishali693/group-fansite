@@ -19,13 +19,18 @@ li a{
 }
 
 li a:hover{
-    color: white;
+    color: #703d3b;
     text-decoration: underline;
 }
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 25px;
+}
+
+.container > .book:last-child {
+    grid-column: span 2;
+    justify-self: center;
 }
 
 .book {
@@ -47,6 +52,7 @@ li a:hover{
 
 .book img:hover{
     transform: scale(1.5);
+    opacity: 65%;
 }
 
 
