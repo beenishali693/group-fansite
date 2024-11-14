@@ -1,19 +1,9 @@
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-}
-
-.book {
-    display: grid;
-    grid-template-rows: auto auto; 
+h1{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-size: 50px;
     text-align: center;
-    gap: 10px; 
-}
 
-img {
-    height: 150px;
-    width: auto;
 }
 
 h2, p {
@@ -21,4 +11,42 @@ h2, p {
     font-weight: 400; 
     margin: 0;
     padding: 5px;
+    text-align: center;
 }
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px;
+}
+
+.book {
+    display: grid;
+    grid-template-rows: auto auto; 
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.book img{
+    justify-self: center;
+    height: 300px;
+    width: auto; 
+    border-radius: 10px;
+    transition: all 100ms ease-in-out;
+}
+
+.book img:hover{
+    transform: scale(1.5);
+}
+
+
