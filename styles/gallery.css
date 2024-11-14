@@ -1,5 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+}
+
+.book {
+    display: grid;
+    grid-template-rows: auto auto; 
+    text-align: center;
+    gap: 10px; 
+}
+
 img {
-    height: 40%;
-    width: 40%;
-    display: inline;
+    height: 150px;
+    width: auto;
+}
+
+h2, p {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400; 
+    margin: 0;
+    padding: 5px;
 }
