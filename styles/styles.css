@@ -1,5 +1,5 @@
 body {
-    background: url("/assets/images/Howarts.jpg");
+    background: url("../assets/images/Howarts.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -30,7 +30,7 @@ ul li::before {
     width: 35px;
     height: 35px;
     content: "";
-    background: url("/assets/images/Sorting-Hat-PNG.png");
+    background: url("../assets/images/Sorting-Hat-PNG.png");
     background-size: 35px 35px;
 }
 
