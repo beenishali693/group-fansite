@@ -15,7 +15,10 @@
 
 
 body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -30,5 +33,10 @@ p {
 }
 
 footer {
-    font-size: 25px;
+    font-size: 30px;
+    align-self: center;
+}
+
+ul li {
+    font-size: 30px;
 }

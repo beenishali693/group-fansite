@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-}of 
+}
 
 h1, footer {
     font-family: "Cormorant Garamond", serif;
@@ -45,8 +45,8 @@ nav li {
     font-size: 25px;
 }
 
-footer {
+/* footer {
     position: absolute;
     width:100%;
     padding: 25px;
-}
+} */
