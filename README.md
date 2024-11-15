@@ -49,10 +49,10 @@ Create and use one main CSS document named `style.css`, which will hold styles t
 
 **Each html page should link to two style sheets:** `style.css` first, and then CSS document that corresponds to it (`index.css`, `facts.css`, or `gallery.css`). This will ensure that the specific styles override the generic one.
 
-Work together as a group to first create generic stylings for all three HTML files in `style.css`. Each group member should also add at least three page specific styles to their page specific style sheet, at least one of which should override the corresponding generic style from `style.css`.
+Work together as a group to first create generic stylings for all three HTML files in `style.css`. Each group member should also add at least three page specific styles to their page specific style sheet, at least one of which should override the corresponding generic style from `style.css`.6t
 
 ## Wave 3 - Layout
-
+344
 ### Required Content
 
 In this wave, work together to present the elements on the page as you see fit by using the following at least once:

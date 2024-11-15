@@ -1,13 +1,13 @@
-body {
+html {
     background: url("../assets/images/Hogwarts.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-}
+}of 
 
 h1, footer {
     font-family: "Cormorant Garamond", serif;
-    font-weight: 600; 
+    font-weight: 700; 
     font-style: italic;
     text-align: center;
 }
