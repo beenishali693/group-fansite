@@ -1,26 +1,36 @@
 body {
     text-align: center;
-    display: grid;
-    grid-template-rows: 0.5fr 1fr 6fr 0.25fr;
+    width: 100%;
+    margin: 0;
+}
+    
+header{
+    padding: 10px 0;
 }
 
-h4 {
-    margin-left: 5%;
+.section-header {
+    margin: auto;
 }
 
 nav a {
-    color: blue;
-    
+    color: burlywood;
 }
 
 nav ul {
-    background-color: white;
-    padding: 2%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    height: 10%;
+    padding-bottom: 30px;;
+}
+nav ul li {
+    padding: 20px;
 }
 
 section {
-    margin-top: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section li {
@@ -28,7 +38,5 @@ section li {
 }
 
 footer {
-    background-color: white;
-    color: black;
-    bottom: 0;
+    color: white;
 }
