@@ -49,6 +49,11 @@ h2, p {
     transition: all 100ms ease-in-out;
 }
 
+.book img:hover{
+    transform: scale(1.5);
+    opacity: 65%;
+}
+
 .book h2 {
     font-size: 1.7em;
     margin: 15px 0;
@@ -66,9 +71,5 @@ h2, p {
 }
 
 
-.book img:hover{
-    transform: scale(1.5);
-    opacity: 65%;
-}
 
 
