@@ -1,24 +1,75 @@
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-}
-
-.book {
-    display: grid;
-    grid-template-rows: auto auto; 
+h1{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-size: 50px;
     text-align: center;
-    gap: 10px; 
 }
 
-img {
-    height: 150px;
-    width: auto;
-}
+li a{
+        text-decoration: none;
+    }
+    
+li a:hover{
+        color: #703d3b;
+        text-decoration: underline;
+    }
 
 h2, p {
     font-family: "Cormorant Garamond", serif;
     font-weight: 400; 
-    margin: 0;
-    padding: 5px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; /* adds space between books elements */
+}
+
+.container p{
+    max-width: 90%;
+    margin: auto;
+    padding: 8px;
+    text-align: justify;
+    line-height: 1.3; /* reduces the space between lines */
+
+}
+
+.book {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.book img{
+    max-width: 100%;
+    justify-self: center;
+    height: auto;
+    border-radius: 10px;
+    transition: all 100ms ease-in-out;
+}
+
+.book img:hover{
+    transform: scale(1.3);
+    opacity: 65%;
+}
+
+.book h2 {
+    font-size: 1.7em;
+    margin: 15px 0;
+}
+
+.book p {
+    font-size: 1.2em;
+    line-height: 1.3;
+    padding: 8px;
+}
+
+.container > .book:last-child {
+    grid-column: span 2; /* Makes last book span both columns in middle */
+    justify-self: center;
+}
+
+
+
+
